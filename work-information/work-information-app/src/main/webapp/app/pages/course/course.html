@@ -1,0 +1,12 @@
+<div class="container">
+
+<h1>Course Page</h1>
+
+    <ul>
+        <li ng-repeat="course in courses">
+            <a href="#/courses/{{course.id}}/courseDetail">{{ course.title }} - {{ course.duration }}</a>
+        </li>
+    </ul>
+
+
+</div>

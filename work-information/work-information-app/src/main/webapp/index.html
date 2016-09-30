@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="workInfoApp">
+<head>
+    <title>Work Information</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+
+    <!-- load bootstrap -->
+    <link rel="stylesheet" href="./static/bootstrap/css/bootstrap.min.css" />
+    <!-- load angular -->
+    <script src="static/angularjs/angular.min.js"></script>
+    <script src="static/angularjs/angular-route.min.js"></script>
+    <script src="static/angularjs/angular-resource.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/pages/course/courseController.js"></script>
+    <script src="app/pages/login/loginController.js"></script>
+    <script src="app/pages/label/labelController.js"></script>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">AngularJS</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#/"><i></i>Home</a></li>
+                <li><a href="#/courses"><i></i> Course</a></li>
+                <li><a href="#/logins"><i></i> Login</a></li>
+                <li><a href="#/labels"><i></i> Label</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+
+    <div ng-controller="mainController">
+        <div>
+            <div ng-view></div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

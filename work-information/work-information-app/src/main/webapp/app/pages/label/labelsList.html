@@ -1,0 +1,33 @@
+<div class="panel panel-default">
+
+    <div class="panel-heading">
+        <span class="panel-title">Labels Tree</span>
+        <button class="btn btn-default pull-right" ng-show="true" ng-click="newLabel()">
+            <span class="glyphicon glyphicon-plus margin"></span>New Label
+        </button>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="panel-body">
+        <ul>
+            <li ng-repeat="label in labels | orderBy:'order' track by label.id"
+                ng-mouseover=""
+                ng-click=""
+                ng-include="'labelTree'">
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<script type="text/ng-template" id="labelTree">
+
+    <a>{{ label.labelText }}</a>
+    <ul ng-if="label.children">
+        <li ng-repeat="label in label.children | orderBy:'order' track by label.id"
+            ng-mouseover=""
+            ng-include="'labelTree'">
+        </li>
+    </ul>
+
+</script>

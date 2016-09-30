@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<web-app id="work-info" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <display-name>work-info</display-name>
+
+    <!--<security-constraint>-->
+        <!--<web-resource-collection>-->
+            <!--<web-resource-name>Rest Access</web-resource-name>-->
+            <!--<description/>-->
+            <!--<url-pattern>/rs/*</url-pattern>-->
+            <!--<http-method>GET</http-method>-->
+            <!--<http-method>POST</http-method>-->
+            <!--<http-method>PUT</http-method>-->
+            <!--<http-method>DELETE</http-method>-->
+        <!--</web-resource-collection>-->
+        <!--<web-resource-collection>-->
+            <!--<web-resource-name>Web Access</web-resource-name>-->
+            <!--<description/>-->
+            <!--<url-pattern>/*</url-pattern>-->
+        <!--</web-resource-collection>-->
+    <!--</security-constraint>-->
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

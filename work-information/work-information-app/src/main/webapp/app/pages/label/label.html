@@ -1,0 +1,26 @@
+<div class="container">
+
+        <ul>
+            <li ng-repeat="label in labels">
+                <div>{{ label.id }}</div>
+                <div>{{ label.labelText }}</div>
+                <div>{{ label.labelParent }}</div>
+                <ul>
+                    <li ng-repeat="child in label.children.entry">
+                        <div>{{ child.key }}</div>
+                        <div>{{ child.value}}</div>
+                    </li>
+                </ul>
+                <hr />
+            </li>
+        </ul>
+
+        <form ng-submit="save()">
+            Enter text and hit enter:
+            <input type="text" ng-model="newLabel.labelText" />
+            <input type="text" ng-model="newLabel.labelParent" />
+            <!--<input type="text" ng-model="newLabel.labelParent" name="text" />-->
+            <input type="submit" id="submit" value="Submit" />
+        </form>
+
+</div>
