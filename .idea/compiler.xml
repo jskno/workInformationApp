@@ -22,14 +22,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="work-info-front-end" />
         <module name="work-information-app" />
         <module name="work-information-db" />
-        <module name="work-information-fe" />
         <module name="work-information-release" />
         <module name="work-information-st" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="work-info-front-end" target="1.5" />
       <module name="work-information" target="1.5" />
       <module name="work-information-app" target="1.8" />
       <module name="work-information-db" target="1.8" />

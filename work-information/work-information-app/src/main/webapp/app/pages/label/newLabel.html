@@ -1,0 +1,46 @@
+<div class="panel panel-default">
+
+    <div class="panel-heading">
+        <span class="panel-title">title</span>
+    </div>
+
+    <div class="panel-body">
+        <form class="form-horizontal multiple" ng-submit="save()">
+            <div class="form-group">
+                <div class="col-sm-6">
+                    <label class="control-label">Label Text</label>
+                    <input class="form-control" type="text" ng-model="newLabel.labelText" required />
+                </div>
+                <div class="col-sm-4">
+                    <label class="control-label">Label Parent</label>
+                    <button ng-click="open()" class="btn btn-warning">Simple Popup</button>
+                </div>
+                <div class="col-sm-2">
+                    <label class="control-label">Order</label>
+                    <input class="form-control" type="text" ng-model="newLabel.order" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2">
+                    <label class="control-label"></label>
+                    <button class="form-control btn btn-default" ng-click="save()">
+                        <span class="glyphicon glyphicon-save margin"></span> Guardar
+                    </button>
+                </div>
+                <div class="col-sm-2">
+                    <label class="control-label"></label>
+                    <button class="form-control btn btn-default" ng-click="remove()">
+                        <span class="glyphicon glyphicon-remove margin"></span> Eliminar
+                    </button>
+                </div>
+                <div class="col-sm-2">
+                    <label class="control-label"></label>
+                    <button class="form-control btn btn-default" ng-click="cancel()">
+                        <span class="glyphicon glyphicon-chevron-left margin"></span> Cancelar
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>

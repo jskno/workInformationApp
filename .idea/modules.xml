@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/work-information-fe/work-info-front-end/work-info-front-end.iml" filepath="$PROJECT_DIR$/work-information-fe/work-info-front-end/work-info-front-end.iml" />
       <module fileurl="file://$PROJECT_DIR$/work-information/work-information.iml" filepath="$PROJECT_DIR$/work-information/work-information.iml" />
       <module fileurl="file://$PROJECT_DIR$/work-information/work-information-app/work-information-app.iml" filepath="$PROJECT_DIR$/work-information/work-information-app/work-information-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/work-information/work-information-db/work-information-db.iml" filepath="$PROJECT_DIR$/work-information/work-information-db/work-information-db.iml" />
-      <module fileurl="file://$PROJECT_DIR$/work-information-fe/work-information-fe.iml" filepath="$PROJECT_DIR$/work-information-fe/work-information-fe.iml" />
       <module fileurl="file://$PROJECT_DIR$/work-information-parent/work-information-parent.iml" filepath="$PROJECT_DIR$/work-information-parent/work-information-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/work-information-release/work-information-release.iml" filepath="$PROJECT_DIR$/work-information-release/work-information-release.iml" />
       <module fileurl="file://$PROJECT_DIR$/work-information/work-information-st/work-information-st.iml" filepath="$PROJECT_DIR$/work-information/work-information-st/work-information-st.iml" />

@@ -51,7 +51,7 @@
         <option value="$PROJECT_DIR$/work-information-parent/pom.xml" />
         <option value="$PROJECT_DIR$/work-information/pom.xml" />
         <option value="$PROJECT_DIR$/work-information-release/pom.xml" />
-        <option value="$PROJECT_DIR$/work-information-fe/pom.xml" />
+        <option value="$PROJECT_DIR$/work-information-fe/work-info-front-end/pom.xml" />
       </list>
     </option>
   </component>
